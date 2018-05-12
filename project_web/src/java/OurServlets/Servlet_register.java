@@ -19,10 +19,11 @@ public class Servlet_register extends HttpServlet {
         String last_name = request.getParameter("apellido");
         String email = request.getParameter("email");
         String user_name = request.getParameter("usuario");
-        String password = request.getParameter("contraseña");
-        String type = request.getParameter("tipo");
-        
-        System.out.println(type);
+        String password = request.getParameter("contrasenia");
+        //String type = request.getParameter("tipo");
+
+        System.out.println("Estoy en el servlet");
+        //System.out.println(type);
         
     }
 }
