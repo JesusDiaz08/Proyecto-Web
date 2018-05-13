@@ -18,7 +18,9 @@ xsi:noNamespaceSchemaLocation="storage.xsd">
 	<password>Jkaimorts1234</password>
 	<email>jesuskai@gmail.com</email>
 	<type>administrator</type>
-	<projects></projects>
+	<projects>
+		<project> Este es mi primer proyecto</project>
+	</projects>
 </user>
 
 <user>

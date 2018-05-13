@@ -5,7 +5,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.jdom.Element;
 
 public class Servlet_register extends HttpServlet {
 
@@ -19,15 +18,11 @@ public class Servlet_register extends HttpServlet {
         String last_name = request.getParameter("apellido");
         String email = request.getParameter("email");
         String user_name = request.getParameter("usuario");
-        String password = request.getParameter("contraseña");
+        String password = request.getParameter("contrasenia");
         //String type = request.getParameter("tipo");
+
+        System.out.println("Estoy en el servlet");
+        //System.out.println(type);
         
-        try{
-             Element students = new Element("students"){};
-             Element student = new Element("student");
-            
-        } catch(Exception e) {
-            System.err.println("");
-        }
     }
 }
