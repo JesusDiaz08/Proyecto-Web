@@ -35,13 +35,7 @@ public class Servlet_register extends HttpServlet {
         String last_name = request.getParameter("last_name");
         String email = request.getParameter("email");
         String user_name = request.getParameter("user");
-        String password = request.getParameter("password");
-<<<<<<< HEAD
-        
-=======
->>>>>>> 9eaf95ba712e9ab5fdb798b7986ca54ceea94c0b
-        
-        /** BEGIN XML treat**/
+        String password = request.getParameter("password");       /** BEGIN XML treat**/
         try {
             //The file exists
             if (file.exists()) {
