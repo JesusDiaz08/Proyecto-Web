@@ -62,22 +62,12 @@ public class Servlet_register extends HttpServlet {
             child.addContent(new Element(EMAIL).setText(email));
             child.addContent(new Element(PROJECTS).setText("algo"));
             rootElement.addContent(child);
-            //document.setContent(rootElement);
-            System.out.println("Creating file outputStreeam");
             FileOutputStream fileOutputStream = new FileOutputStream(file);
-            //FileWriter fileWriter = new FileWriter(path);
             XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
             xmlOutputter.output(document, fileOutputStream);
             xmlOutputter.output(document, System.out);
             fileOutputStream.flush();
             fileOutputStream.close();
-            //FileOutputStream fileOutputStream = new FileOutputStream(file);
-        //xmlOutputter.output(document, fileOutputStream);
-            //xmlOutputter.setFormat(Format.getPrettyFormat());   
-            //xmlOutputter.output(document, fileWriter);
-            //xmlOutputter.output(document, System.out);
-            //fileWriter.flush();
-            //fileWriter.close();
 
         } catch(IOException e){ 
             System.err.println("An IOException has occurred " + e);
