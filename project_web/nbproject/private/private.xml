@@ -5,7 +5,8 @@
         <group>
             <file>file:/C:/Users/Erick/Documents/GitHub/Examen2/Proyecto-Web/project_web/src/java/OurServlets/Servlet_register.java</file>
             <file>file:/C:/Users/Erick/Documents/GitHub/Examen2/Proyecto-Web/project_web/web/back_end/registro.html</file>
-            <file>file:/C:/Users/Erick/Documents/GitHub/Examen2/Proyecto-Web/project_web/src/java/Utilities/OurXML.java</file>
+            <file>file:/C:/Users/Erick/Documents/GitHub/Examen2/Proyecto-Web/project_web/src/java/OurServlets/Servlet_login.java</file>
+            <file>file:/C:/Users/Erick/Documents/GitHub/Examen2/Proyecto-Web/project_web/src/java/OurServlets/LoginValidator.java</file>
         </group>
     </open-files>
 </project-private>
